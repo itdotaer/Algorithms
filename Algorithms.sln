@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankDetail", "BankDetail\BankDetail.csproj", "{E3E1B9A7-4C85-46E6-BEDD-D18077F70ECD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignCandy", "AssignCandy\AssignCandy.csproj", "{1309E00C-FFE8-420E-9583-AA14BEF41463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumAndStruct", "EnumAndStruct\EnumAndStruct.csproj", "{BB105E6B-6C56-440A-B4CF-C0457E272DB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E3E1B9A7-4C85-46E6-BEDD-D18077F70ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3E1B9A7-4C85-46E6-BEDD-D18077F70ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3E1B9A7-4C85-46E6-BEDD-D18077F70ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1309E00C-FFE8-420E-9583-AA14BEF41463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1309E00C-FFE8-420E-9583-AA14BEF41463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1309E00C-FFE8-420E-9583-AA14BEF41463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1309E00C-FFE8-420E-9583-AA14BEF41463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB105E6B-6C56-440A-B4CF-C0457E272DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB105E6B-6C56-440A-B4CF-C0457E272DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB105E6B-6C56-440A-B4CF-C0457E272DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB105E6B-6C56-440A-B4CF-C0457E272DB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
