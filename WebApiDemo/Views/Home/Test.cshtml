@@ -1,0 +1,35 @@
+﻿@using WebApiDemo.Controllers
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Test</title>
+    <script type="text/javascript" src="/Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.getJSON("/api/person/1", function (data) {
+                $("#id").text(data["Id"]);
+                $("#name").text(data["Name"]);
+                $("#age").text(data["Age"]);
+                console.log();
+            });
+
+            $.getJSON("/api/person", function(data) {
+                console.log(data);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="getData">
+        <h2>Id:<label id="id"></label></h2>
+        <h2>Name:<label id="name"></label></h2>
+        <h2>Age:<label id="age"></label></h2>
+    </div>
+    
+    <div id="getTable">
+        
+    </div>
+</body>
+</html>

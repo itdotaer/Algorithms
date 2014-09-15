@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignCandy", "AssignCandy\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumAndStruct", "EnumAndStruct\EnumAndStruct.csproj", "{BB105E6B-6C56-440A-B4CF-C0457E272DB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{A305D24E-887B-42DC-8B74-5F3DA6D085FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemo", "WebApiDemo\WebApiDemo.csproj", "{D94580A0-B8C8-4E44-A1AB-0E0052AD17D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{BB105E6B-6C56-440A-B4CF-C0457E272DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB105E6B-6C56-440A-B4CF-C0457E272DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB105E6B-6C56-440A-B4CF-C0457E272DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A305D24E-887B-42DC-8B74-5F3DA6D085FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A305D24E-887B-42DC-8B74-5F3DA6D085FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A305D24E-887B-42DC-8B74-5F3DA6D085FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A305D24E-887B-42DC-8B74-5F3DA6D085FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94580A0-B8C8-4E44-A1AB-0E0052AD17D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94580A0-B8C8-4E44-A1AB-0E0052AD17D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94580A0-B8C8-4E44-A1AB-0E0052AD17D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94580A0-B8C8-4E44-A1AB-0E0052AD17D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

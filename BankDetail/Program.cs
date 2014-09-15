@@ -149,10 +149,10 @@ namespace BankDetail
             var calculated = MoneyProccessor.calculatMoney(rs.MoneyDetails);
 
             Console.WriteLine();
-            Console.WriteLine(string.Format("{0};{1};{2};{3}", rs.Head.Id, rs.Head.InCome, rs.Head.OutCome, rs.Head.Remain));
+            Console.WriteLine("{0};{1};{2};{3}", rs.Head.Id, rs.Head.InCome, rs.Head.OutCome, rs.Head.Remain);
             foreach (var moneyDetail in calculated)
             {
-                Console.WriteLine(string.Format("{0};{1};{2};{3}", moneyDetail.Id, moneyDetail.InCome, moneyDetail.OutCome, moneyDetail.Remain));
+                Console.WriteLine("{0};{1};{2};{3}", moneyDetail.Id, moneyDetail.InCome, moneyDetail.OutCome, moneyDetail.Remain);
             }
 
             Console.Read();

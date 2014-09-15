@@ -18,6 +18,10 @@ namespace EnumAndStruct
     {
         static void Main(string[] args)
         {
+            foreach (var s in args)
+            {
+                Console.Write(s + "\t");
+            }
             var rs = Week.Mon;
             Console.WriteLine((int)Week.Mon);
 
