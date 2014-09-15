@@ -55,7 +55,7 @@ namespace AssignCandy
             return postCandies;
         }
 
-        public static int totalValues(List<Candy> postCandies)
+        public static int TotalValues(List<Candy> postCandies)
         {
             return postCandies.Sum(c => c.CandyNum);
         }
@@ -110,7 +110,7 @@ namespace AssignCandy
             //    Console.WriteLine(candy.CandyNum);
             //}
 
-            Console.WriteLine(AssignCandyCore.totalValues(result));
+            Console.WriteLine(AssignCandyCore.TotalValues(result));
         }
     }
 }
